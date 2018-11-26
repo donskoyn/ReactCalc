@@ -30,3 +30,40 @@
     transform: rotate(360deg);
   }
 }
+.buttons{
+  transition-property: background-color;
+  transition-duration: 1s;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+width: 99px;
+  border: 1px solid black;
+}
+.buttons:hover{
+  background: black;
+  color: white;
+}
+.allBtn{
+  flex-wrap: wrap;
+  width: 500px;
+  display: flex;
+}
+#inputResult{
+  margin-bottom: 1px;
+  border: 3px solid steelblue;
+  padding: 10px;
+  font-size: 20px;
+}
+.mainDiv{
+
+  width: 500px;
+  margin: 50px auto;
+}
+.nameAutor{
+  width: 484px;
+  position: relative;
+  bottom:10px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
